@@ -1,6 +1,5 @@
 package com.judada.springbootinit.mapper;
 
-import com.judada.springbootinit.model.entity.Post;
 import java.util.Date;
 import java.util.List;
 import javax.annotation.Resource;

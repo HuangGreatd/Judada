@@ -1,19 +1,20 @@
-package com.judada.springbootinit.model.dto.post;
+package com.judada.springbootinit.model.dto.useranswer;
 
 import com.judada.springbootinit.common.PageRequest;
-import java.io.Serializable;
-import java.util.List;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import java.io.Serializable;
+import java.util.List;
+
 /**
- * 查询请求
+ * 查询用户回答请求
  *
 *
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class PostQueryRequest extends PageRequest implements Serializable {
+public class UserAnswerQueryRequest extends PageRequest implements Serializable {
 
     /**
      * id
@@ -46,19 +47,9 @@ public class PostQueryRequest extends PageRequest implements Serializable {
     private List<String> tags;
 
     /**
-     * 至少有一个标签
-     */
-    private List<String> orTags;
-
-    /**
      * 创建用户 id
      */
     private Long userId;
-
-    /**
-     * 收藏用户 id
-     */
-    private Long favourUserId;
 
     private static final long serialVersionUID = 1L;
 }

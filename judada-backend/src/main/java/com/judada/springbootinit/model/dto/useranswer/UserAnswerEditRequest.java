@@ -1,16 +1,17 @@
-package com.judada.springbootinit.model.dto.post;
+package com.judada.springbootinit.model.dto.useranswer;
+
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.List;
-import lombok.Data;
 
 /**
- * 编辑请求
+ * 编辑用户回答请求
  *
 *
  */
 @Data
-public class PostEditRequest implements Serializable {
+public class UserAnswerEditRequest implements Serializable {
 
     /**
      * id
