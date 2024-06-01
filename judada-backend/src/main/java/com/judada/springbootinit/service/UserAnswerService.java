@@ -3,7 +3,7 @@ package com.judada.springbootinit.service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.judada.springbootinit.model.dto.userAnswer.UserAnswerQueryRequest;
+import com.judada.springbootinit.model.dto.useranswer.UserAnswerQueryRequest;
 import com.judada.springbootinit.model.entity.UserAnswer;
 import com.judada.springbootinit.model.vo.UserAnswerVO;
 

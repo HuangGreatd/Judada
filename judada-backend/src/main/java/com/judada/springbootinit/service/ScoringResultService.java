@@ -3,7 +3,7 @@ package com.judada.springbootinit.service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.judada.springbootinit.model.dto.scoringResult.ScoringResultQueryRequest;
+import com.judada.springbootinit.model.dto.scoring.ScoringResultQueryRequest;
 import com.judada.springbootinit.model.entity.ScoringResult;
 import com.judada.springbootinit.model.vo.ScoringResultVO;
 
